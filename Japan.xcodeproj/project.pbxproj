@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3980203F1459C4BA00E678D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3980203E1459C4BA00E678D8 /* UIKit.framework */; };
+		398020411459C4BA00E678D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398020401459C4BA00E678D8 /* Foundation.framework */; };
+		398020431459C4BA00E678D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398020421459C4BA00E678D8 /* CoreGraphics.framework */; };
+		398020491459C4BA00E678D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 398020471459C4BA00E678D8 /* InfoPlist.strings */; };
+		3980204B1459C4BA00E678D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980204A1459C4BA00E678D8 /* main.m */; };
+		3980204F1459C4BA00E678D8 /* JapanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980204E1459C4BA00E678D8 /* JapanAppDelegate.m */; };
+		398020571459C55600E678D8 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 398020561459C55600E678D8 /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3980203A1459C4BA00E678D8 /* Japan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Japan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3980203E1459C4BA00E678D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		398020401459C4BA00E678D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		398020421459C4BA00E678D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		398020461459C4BA00E678D8 /* Japan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Japan-Info.plist"; sourceTree = "<group>"; };
+		398020481459C4BA00E678D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3980204A1459C4BA00E678D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3980204C1459C4BA00E678D8 /* Japan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Japan-Prefix.pch"; sourceTree = "<group>"; };
+		3980204D1459C4BA00E678D8 /* JapanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JapanAppDelegate.h; sourceTree = "<group>"; };
+		3980204E1459C4BA00E678D8 /* JapanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JapanAppDelegate.m; sourceTree = "<group>"; };
+		398020551459C55600E678D8 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		398020561459C55600E678D8 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		398020371459C4BA00E678D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3980203F1459C4BA00E678D8 /* UIKit.framework in Frameworks */,
+				398020411459C4BA00E678D8 /* Foundation.framework in Frameworks */,
+				398020431459C4BA00E678D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3980202F1459C4BA00E678D8 = {
+			isa = PBXGroup;
+			children = (
+				398020441459C4BA00E678D8 /* Japan */,
+				3980203D1459C4BA00E678D8 /* Frameworks */,
+				3980203B1459C4BA00E678D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3980203B1459C4BA00E678D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3980203A1459C4BA00E678D8 /* Japan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3980203D1459C4BA00E678D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3980203E1459C4BA00E678D8 /* UIKit.framework */,
+				398020401459C4BA00E678D8 /* Foundation.framework */,
+				398020421459C4BA00E678D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		398020441459C4BA00E678D8 /* Japan */ = {
+			isa = PBXGroup;
+			children = (
+				3980204D1459C4BA00E678D8 /* JapanAppDelegate.h */,
+				3980204E1459C4BA00E678D8 /* JapanAppDelegate.m */,
+				398020451459C4BA00E678D8 /* Supporting Files */,
+				398020551459C55600E678D8 /* View.h */,
+				398020561459C55600E678D8 /* View.m */,
+			);
+			path = Japan;
+			sourceTree = "<group>";
+		};
+		398020451459C4BA00E678D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				398020461459C4BA00E678D8 /* Japan-Info.plist */,
+				398020471459C4BA00E678D8 /* InfoPlist.strings */,
+				3980204A1459C4BA00E678D8 /* main.m */,
+				3980204C1459C4BA00E678D8 /* Japan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		398020391459C4BA00E678D8 /* Japan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398020521459C4BA00E678D8 /* Build configuration list for PBXNativeTarget "Japan" */;
+			buildPhases = (
+				398020361459C4BA00E678D8 /* Sources */,
+				398020371459C4BA00E678D8 /* Frameworks */,
+				398020381459C4BA00E678D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Japan;
+			productName = Japan;
+			productReference = 3980203A1459C4BA00E678D8 /* Japan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		398020311459C4BA00E678D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 398020341459C4BA00E678D8 /* Build configuration list for PBXProject "Japan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3980202F1459C4BA00E678D8;
+			productRefGroup = 3980203B1459C4BA00E678D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				398020391459C4BA00E678D8 /* Japan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		398020381459C4BA00E678D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398020491459C4BA00E678D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		398020361459C4BA00E678D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3980204B1459C4BA00E678D8 /* main.m in Sources */,
+				3980204F1459C4BA00E678D8 /* JapanAppDelegate.m in Sources */,
+				398020571459C55600E678D8 /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		398020471459C4BA00E678D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398020481459C4BA00E678D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		398020501459C4BA00E678D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		398020511459C4BA00E678D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		398020531459C4BA00E678D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Japan/Japan-Prefix.pch";
+				INFOPLIST_FILE = "Japan/Japan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		398020541459C4BA00E678D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Japan/Japan-Prefix.pch";
+				INFOPLIST_FILE = "Japan/Japan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		398020341459C4BA00E678D8 /* Build configuration list for PBXProject "Japan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398020501459C4BA00E678D8 /* Debug */,
+				398020511459C4BA00E678D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398020521459C4BA00E678D8 /* Build configuration list for PBXNativeTarget "Japan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398020531459C4BA00E678D8 /* Debug */,
+				398020541459C4BA00E678D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 398020311459C4BA00E678D8 /* Project object */;
+}
